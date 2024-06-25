@@ -1,0 +1,17 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: hsl(257, 7%, 63%);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}

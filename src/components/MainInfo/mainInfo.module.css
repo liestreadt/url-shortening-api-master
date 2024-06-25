@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.1rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 600px;
+}
+
+.titleText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 11rem;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: -2px;
+    color: hsl(255, 11%, 22%);
+}
+
+.motivatorText {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.btnContainer {
+    margin-top: 1.8rem;
+    display: flex;
+}
