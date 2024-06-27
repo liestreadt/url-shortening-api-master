@@ -1,6 +1,6 @@
-import FeaturesCard from './FeaturesCard';
+import FeaturesCard from '@/components/FeaturesInfo/FeaturesCard';
 import styles from './featuresInfo.module.css';
-import { FEATURES_CARD_CONTENT } from '../../constants';
+import { FEATURES_CARD_CONTENT } from '@/constants';
 
 function FeaturesInfo() {
 

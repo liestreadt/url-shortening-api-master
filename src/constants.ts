@@ -1,6 +1,6 @@
-import brandRecognitionSVG from './assets/images/icon-brand-recognition.svg?react';
-import detailedRecordsSVG from './assets/images/icon-detailed-records.svg?react';
-import fullyCustomisableSVG from './assets/images/icon-fully-customizable.svg?react';
+import brandRecognitionSVG from '@/assets/images/icon-brand-recognition.svg?react';
+import detailedRecordsSVG from '@/assets/images/icon-detailed-records.svg?react';
+import fullyCustomisableSVG from '@/assets/images/icon-fully-customizable.svg?react';
 
 export const FEATURES_CARD_CONTENT: FeturesCardContentType = [
     {

@@ -1,7 +1,7 @@
-import IconFacebook from '../../assets/images/icon-facebook.svg?react'
-import IconTwitter from '../../assets/images/icon-twitter.svg?react'
-import IconPinterest from '../../assets/images/icon-pinterest.svg?react'
-import IconInstagram from '../../assets/images/icon-instagram.svg?react'
+import IconFacebook from '@/assets/images/icon-facebook.svg?react'
+import IconTwitter from '@/assets/images/icon-twitter.svg?react'
+import IconPinterest from '@/assets/images/icon-pinterest.svg?react'
+import IconInstagram from '@/assets/images/icon-instagram.svg?react'
 
 import styles from './footer.module.css';
 

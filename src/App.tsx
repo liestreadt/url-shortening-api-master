@@ -1,9 +1,9 @@
-import Header from './components/Header/Header';
-import MainInfo from './components/MainInfo/MainInfo';
-import LinkForm from './components/LinkForm/LinkForm';
-import FeaturesInfo from './components/FeaturesInfo/FeaturesInfo';
-import BoostInfo from './components/BoostInfo/BoostInfo';
-import Footer from './components/Footer/Footer';
+import Header from '@/components/Header/Header';
+import MainInfo from '@/components/MainInfo/MainInfo';
+import LinkForm from '@/components/LinkForm/LinkForm';
+import FeaturesInfo from '@/components/FeaturesInfo/FeaturesInfo';
+import BoostInfo from '@/components/BoostInfo/BoostInfo';
+import Footer from '@/components/Footer/Footer';
 import styles from './app.module.css';
 
 function App() {

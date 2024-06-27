@@ -1,6 +1,6 @@
-import Title from '../../assets/images/logo.svg?react'
-import Button from '../Button/Button';
+import Button from '@/components/Button/Button';
 import styles from './header.module.css';
+import Title from '@/assets/images/logo.svg?react'
 
 function Header() {
     return (
