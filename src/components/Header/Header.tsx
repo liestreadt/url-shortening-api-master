@@ -9,13 +9,13 @@ function Header() {
                 <nav className={styles.navbar}>
                     <div className={styles.title}><Title /></div>
                     <div className={styles.links}>
-                        <div>Features</div>
-                        <div>Pricing</div>
-                        <div>Resources</div>
+                        <a className={styles.link} href=''>Features</a>
+                        <a className={styles.link} href=''>Pricing</a>
+                        <a className={styles.link} href=''>Resources</a>
                     </div>
                 </nav>
                 <div className={styles.loginBar}>
-                    <div>Login</div>
+                    <a className={styles.link} href=''>Login</a>
                     <Button padding='0.55rem 1.55rem' text='Sign Up'/>
                 </div>
             </header>

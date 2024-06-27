@@ -1,0 +1,10 @@
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Gray: hsl(0, 0%, 75%);
+    --color-Cyan: hsl(180, 66%, 49%);
+    --color-Active-Cyan: hsl(179, 49%, 77%);
+    --color-Dark-Violet: hsl(257, 27%, 26%);
+    --color-Grayish-Violet: hsl(257, 7%, 63%);
+    --color-Very-Dark-Blue: hsl(255, 11%, 22%);
+    --color-Very-Dark-Violet: hsl(260, 8%, 14%);
+}

@@ -30,3 +30,7 @@
     display: flex;
     gap: 2rem;
 }
+
+.link:hover {
+    color: var(--color-Very-Dark-Blue);
+}

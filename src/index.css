@@ -1,10 +1,12 @@
+@import '@/vars.css';
+
 html {
     font-size: 15px;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    color: hsl(257, 7%, 63%);
+    color: var(--color-Grayish-Violet);
     margin: 0;
 }
 

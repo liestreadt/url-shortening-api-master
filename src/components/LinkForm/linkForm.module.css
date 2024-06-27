@@ -1,3 +1,5 @@
+@import '@/vars.css';
+
 .wrapper {
     margin-top: 138px;
 }
@@ -7,7 +9,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color:hsl(257, 27%, 26%);
+    background-color:var(--color-Dark-Violet);
     background-image: url('@/assets/images/bg-shorten-desktop.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -52,8 +54,8 @@
     border: none;
     border-radius: 10px;
     width: fit-content;
-    background-color: hsl(180, 66%, 49%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--color-Cyan);
+    color: var(--color-White);
     font-family: inherit;
     font-size: 1.33rem;
     font-weight: 700;

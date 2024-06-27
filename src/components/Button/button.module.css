@@ -1,3 +1,5 @@
+@import '@/vars.css';
+
 .button {
     box-sizing: border-box;
     display: flex;
@@ -6,13 +8,13 @@
     border: none;
     border-radius: 2rem;
     width: fit-content;
-    background-color: hsl(180, 66%, 49%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--color-Cyan);
+    color: var(--color-White);
     font-family: inherit;
     font-weight: 700;
     cursor: pointer;
 }
 
-.button:active {
-    background-color: hsl(180, 53%, 67%)
+.button:hover {
+    background-color: var(--color-Active-Cyan);
 }

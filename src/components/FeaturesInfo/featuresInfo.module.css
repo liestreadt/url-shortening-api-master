@@ -1,3 +1,5 @@
+@import '@/vars.css';
+
 .wrapper {
     margin-top: 118px;
     display: flex;
@@ -18,7 +20,7 @@
     font-weight: 700;
     text-align: center;
     letter-spacing: -1.25px;
-    color: hsl(255, 11%, 22%);
+    color: var(--color-Very-Dark-Blue);
 }
 
 .subTitle {
@@ -52,7 +54,7 @@
     content: '';
     width: 30px;
     height: 8px;
-    background-color: hsl(180, 66%, 49%);
+    background-color: var(--color-Cyan);
     z-index: 0;
 }
 
@@ -63,7 +65,7 @@
     content: '';
     width: 30px;
     height: 8px;
-    background-color: hsl(180, 66%, 49%);
+    background-color: var(--color-Cyan);
     z-index: 0;
 }
 
@@ -86,7 +88,7 @@
     border-radius: 50px;
     height: 88px;
     width: 88px;
-    background-color: hsl(257, 27%, 26%);
+    background-color: var(--color-Dark-Violet);
 }
 
 .cardContentWrapper {
@@ -98,11 +100,11 @@
     padding: 5.05rem 2rem 2rem 2.15rem;
     height: 268px;
     width: 350px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--color-White);
 }
 
 .cardTitle {
-    color: hsl(255, 11%, 22%);
+    color: var(--color-Very-Dark-Blue);
     font-size: 1.45rem;
     font-weight: 700;
     letter-spacing: 0.1px;

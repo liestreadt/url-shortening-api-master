@@ -1,3 +1,5 @@
+@import '@/vars.css';
+
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -20,7 +22,7 @@
     font-weight: 700;
     line-height: 5rem;
     letter-spacing: -2px;
-    color: hsl(255, 11%, 22%);
+    color: var(--color-Very-Dark-Blue);
 }
 
 .motivatorText {

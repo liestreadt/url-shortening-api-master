@@ -16,7 +16,7 @@ function FeaturesInfo() {
                     </div>
                 </div>
                 <div className={styles.featuresCardsWrapper}>
-                    {FEATURES_CARD_CONTENT.map((item) => <FeaturesCard title={item.title} text={item.text} image={item.image} />)}
+                    {FEATURES_CARD_CONTENT.map((item, index) => <FeaturesCard key={index} title={item.title} text={item.text} image={item.image} />)}
                 </div>
             </div>
         </>
