@@ -3,8 +3,6 @@ import styles from './featuresInfo.module.css';
 import { FEATURES_CARD_CONTENT } from '@/constants';
 
 function FeaturesInfo() {
-
-
     return (
         <>
             <div className={styles.wrapper}>
@@ -16,7 +14,14 @@ function FeaturesInfo() {
                     </div>
                 </div>
                 <div className={styles.featuresCardsWrapper}>
-                    {FEATURES_CARD_CONTENT.map((item, index) => <FeaturesCard key={index} title={item.title} text={item.text} image={item.image} />)}
+                    {FEATURES_CARD_CONTENT.map((item, index) => (
+                        <FeaturesCard
+                            key={index}
+                            title={item.title}
+                            text={item.text}
+                            image={item.image}
+                        />
+                    ))}
                 </div>
             </div>
         </>

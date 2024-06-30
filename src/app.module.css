@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#fff 35.25%, #f0f1f6 35.25%);
+    background: linear-gradient(#fff 800px, #f0f1f6 800px);
     min-height: 100svh;
 }
 
@@ -18,7 +18,7 @@
     width: 100%;
     background-image: url('@/assets/images/illustration-working.svg');
     background-repeat: no-repeat;
-    background-position: 117.4% 15%;
+    background-position: 117.4% 166px;
 }
 
 .page {

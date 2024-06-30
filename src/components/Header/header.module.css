@@ -11,11 +11,11 @@
     gap: 3rem;
 }
 
-.loginBar{
+.loginBar {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    gap: 2.55rem;
+    gap: 2.5rem;
     color: inherit;
 }
 

@@ -54,3 +54,8 @@
     gap: 24px;
     height: fit-content;
 }
+
+.socialsWrapper a {
+    display: flex;
+    height: fit-content;
+}

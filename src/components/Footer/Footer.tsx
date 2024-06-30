@@ -1,8 +1,4 @@
-import IconFacebook from '@/assets/images/icon-facebook.svg?react'
-import IconTwitter from '@/assets/images/icon-twitter.svg?react'
-import IconPinterest from '@/assets/images/icon-pinterest.svg?react'
-import IconInstagram from '@/assets/images/icon-instagram.svg?react'
-
+import SocialsIcon from '@/components/Icons/SocialsIcon';
 import styles from './footer.module.css';
 
 function Footer() {
@@ -56,10 +52,18 @@ function Footer() {
                         </div>
                     </div>
                     <div className={styles.socialsWrapper}>
-                        <a href=''><IconFacebook /></a>
-                        <a href=''><IconTwitter /></a>
-                        <a href=''><IconPinterest /></a>
-                        <a href=''><IconInstagram /></a>
+                        <a href=''>
+                            <SocialsIcon name='Facebook' />
+                        </a>
+                        <a href=''>
+                            <SocialsIcon name='Twitter' />
+                        </a>
+                        <a href=''>
+                            <SocialsIcon name='Pinterest' />
+                        </a>
+                        <a href=''>
+                            <SocialsIcon name='Instagram' />
+                        </a>
                     </div>
                 </div>
             </footer>

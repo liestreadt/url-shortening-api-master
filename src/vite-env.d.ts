@@ -1,6 +1,8 @@
 /// <reference types="vite/client" />
 /// <reference types="vite-plugin-svgr/client" />
 
+type SocialsName = 'Facebook' | 'Twitter' | 'Pinterest' | 'Instagram';
+
 type FeaturesCardPropsType = {
     title: string;
     text: string;
@@ -12,3 +14,7 @@ type FeaturesCardPropsType = {
 };
 
 type FeturesCardContentType = FeaturesCardPropsType[];
+
+type SocialsIconPropsType = {
+    name: SocialsName;
+};

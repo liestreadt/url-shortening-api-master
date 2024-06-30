@@ -6,8 +6,6 @@
     justify-content: center;
     align-items: center;
     border: none;
-    border-radius: 2rem;
-    width: fit-content;
     background-color: var(--color-Cyan);
     color: var(--color-White);
     font-family: inherit;
@@ -17,4 +15,24 @@
 
 .button:hover {
     background-color: var(--color-Active-Cyan);
+}
+
+.big {
+    width: 13.15rem;
+    height: 3.7rem;
+    font-size: 1.35rem;
+}
+
+.small {
+    width: 7rem;
+    height: 2.65rem;
+    font-size: 1rem;
+}
+
+.rounded {
+    border-radius: 2rem;
+}
+
+.squared {
+    border-radius: 5px;
 }
